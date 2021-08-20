@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mac Book Pro</title>
+    <!-- tailwind link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <section>
+            <div class="grid grid-cols-2 gap-10 m-4">
+                <div>
+                    <img class="w-3/4 align-middle mx-auto" src="./img/mac.png" alt="">
+                </div>
+                <!-- right side -->
+                <div>
+                    <div>
+                        <h1 class="text-4xl">Customise your blue 24-inch imac with Apple M1 chip. </h1>
+                        <p class="mt-2">Apple M1 chip with 8-core CPU 4 performance cores and 4 efficiencey core, 7-core Neural Engine 8GB united memory 256 GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Keyboard US English</p>
+                    </div>
+                    <!-- memory Button -->
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-semibold my-2">Memory</h2>
+                        <button class="border-2 rounded p-2">8GB unified memory</button>
+                        <button class="border-2 rounded p-2">16GB unified memory</button>
+                    </div>
+                    <!-- storage Button -->
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-semibold my-2">Storage</h2>
+                        <button class="border-2 rounded p-2">256GB SSD storage</button>
+                        <button class="border-2 rounded p-2">512GB SSD storage</button>
+                        <button class="border-2 rounded p-2">1TB SSD storage</button>
+                    </div>
+                    <!-- Delivery Button -->
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-semibold my-2">Choose your delivery option</h2>
+                        <button class="border-2 rounded p-2">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button class="border-2 rounded p-2">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                    <!-- price section -->
+                    <div class="flex mt-10 font-bold">
+                            <div class="mx-20 my-2">
+                                <h3 class="border-b-2 my-2">Best Price</h3>
+                                <h3 class="border-b-2 my-2">Extra Memory Cost</h3>
+                                <h3 class="border-b-2 my-2">Extra Storage Cost</h3>
+                                <h3 class="border-b-2 my-2 border-black">Delivery charge</h3>
+                                <h3>Total Price</h3>
+                            </div>
+                            <div class="my-2">
+                                <h3 class="border-b-2 my-2">$ <span>1299</span></h3>
+                                <h3 class="border-b-2 my-2">$ <span>0</span></h3>
+                                <h3 class="border-b-2 my-2">$ <span>0</span></h3>
+                                <h3 class="border-b-2 my-2 border-black">$ <span>0</span></h3>
+                                <h3>$ <span>1299</span></h3>
+                            </div>
+                    </div>
+                    <div class="mx-20 my-2">
+                        <h3 class="font-semibold">Add Promo code</h3>
+                        <input class="border p-1" type="text" placeholder="Enter Promo Code">
+                        <button class="border bg-red-700 p-1 rounded text-white">Apply</button>
+                       </div>
+                 </div>
+            </div>
+            <hr>
+            <h1 class="text-center text-4xl font-semibold m-2">Total $<span>1299</span></h1>
+        </section>
+    </main>
 </body>
 </html>
