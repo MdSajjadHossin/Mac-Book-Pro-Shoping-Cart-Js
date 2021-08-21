@@ -62,11 +62,8 @@ document.getElementById('delivery-cost-btn').addEventListener('click', function(
 // handle event listener for delivery-btn
 document.getElementById('delivery-extra-cost-btn').addEventListener('click', function(){
     addExtraCost('delivery', 20);
-    totalUpdatePrice();
+    updateTotalPrice();
 });
-
-
-
 
 //  apply promo code for bonus part
 document.getElementById('apply-btn').addEventListener('click', function(){
