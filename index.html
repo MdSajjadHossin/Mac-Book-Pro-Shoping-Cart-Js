@@ -24,48 +24,48 @@
                     <!-- memory Button -->
                     <div class="mt-10">
                         <h2 class="text-2xl font-semibold my-2">Memory</h2>
-                        <button id="eight-gb-btn" class="border-2 rounded p-2">8GB unified memory</button>
-                        <button id="sixteen-gb-btn" class="border-2 rounded p-2">16GB unified memory</button>
+                        <button id="memory-cost-btn" class="border-2 rounded p-2">8GB unified memory</button>
+                        <button id="memory-extra-cost-btn" class="border-2 rounded p-2">16GB unified memory</button>
                     </div>
                     <!-- storage Button -->
                     <div class="mt-10">
                         <h2 class="text-2xl font-semibold my-2">Storage</h2>
-                        <button id="256-gb-storage-btn" class="border-2 rounded p-2">256GB SSD storage</button>
-                        <button id="512-gb-storage-btn" class="border-2 rounded p-2">512GB SSD storage</button>
-                        <button id="1TB-gb-storage-btn" class="border-2 rounded p-2">1TB SSD storage</button>
+                        <button id="storage-cost-btn-0" class="border-2 rounded p-2">256GB SSD storage</button>
+                        <button id="storage-cost-btn-1" class="border-2 rounded p-2">512GB SSD storage</button>
+                        <button id="storage-cost-btn-2" class="border-2 rounded p-2">1TB SSD storage</button>
                     </div>
                     <!-- Delivery Button -->
                     <div class="mt-10">
                         <h2 class="text-2xl font-semibold my-2">Choose your delivery option</h2>
-                        <button id="aug-25-delivery-btn" class="border-2 rounded p-2">Friday, Aug 25 FREE Prime Delivery</button>
-                        <button id="aug-21-delivery-btn" class="border-2 rounded p-2">Friday, Aug 21 Delivery charge $20</button>
+                        <button id="delivery-cost-btn" class="border-2 rounded p-2">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-extra-cost-btn" class="border-2 rounded p-2">Friday, Aug 21 Delivery charge $20</button>
                     </div>
                     <!-- price section -->
                     <div class="flex mt-10 font-bold">
                             <div class="mx-20 my-2">
-                                <h3 class="border-b-2 my-2">Best Price</h3>
+                                <h3 id="best-price" class="border-b-2 my-2">Best Price</h3>
                                 <h3 class="border-b-2 my-2">Extra Memory Cost</h3>
                                 <h3 class="border-b-2 my-2">Extra Storage Cost</h3>
                                 <h3 class="border-b-2 my-2 border-black">Delivery charge</h3>
                                 <h3>Total Price</h3>
                             </div>
                             <div class="my-2">
-                                <h3 class="border-b-2 my-2">$<span>1299</span></h3>
-                                <h3 class="border-b-2 my-2">$<span id="extra-memory">0</span></h3>
-                                <h3 class="border-b-2 my-2">$<span id="extra-storage">0</span></h3>
+                                <h3 class="border-b-2 my-2">$<span id="best-cost">1299</span></h3>
+                                <h3 class="border-b-2 my-2">$<span id="memory-cost">0</span></h3>
+                                <h3 class="border-b-2 my-2">$<span id="storage-cost">0</span></h3>
                                 <h3 class="border-b-2 my-2 border-black">$<span id="delivery-cost">0</span></h3>
-                                <h3>$<span>1299</span></h3>
+                                <h3>$<span id="total-price">1299</span></h3>
                             </div>
                     </div>
                     <div class="mx-20 my-2">
                         <h3 class="font-semibold">Add Promo code</h3>
-                        <input class="border p-1" type="text" placeholder="Enter Promo Code">
-                        <button class="border bg-red-700 p-1 rounded text-white">Apply</button>
+                        <input id="input-promo-code" class="border p-1" type="text" placeholder="Enter Promo Code">
+                        <button id="apply-btn" class="border bg-red-700 p-1 rounded text-white">Apply</button>
                     </div>
                 </div>
             </div>
             <hr>
-            <h1 class="text-center text-4xl font-semibold m-2">Total $<span>1299</span></h1>
+            <h1 class="text-center text-4xl font-semibold m-2">Total $<span id="total">1299</span></h1>
         </section>
     </main>
     <!-- js link -->
