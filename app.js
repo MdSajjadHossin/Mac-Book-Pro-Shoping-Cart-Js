@@ -33,7 +33,9 @@ document.getElementById('memory-cost-btn').addEventListener('click', function(){
     addExtraCost('memory', 0);
     updateTotalPrice();
 });
+
 //handle storage
+
 //Storage 256gb
 document.getElementById('storage-cost-btn-0').addEventListener('click', function(){
     addExtraCost('storage', 0);
@@ -59,13 +61,13 @@ document.getElementById('delivery-cost-btn').addEventListener('click', function(
 });
 
 
-// handle event listener for delivery-btn
+// handle delivery-btn
 document.getElementById('delivery-extra-cost-btn').addEventListener('click', function(){
     addExtraCost('delivery', 20);
     updateTotalPrice();
 });
 
-//  apply promo code for bonus part
+//  apply promo code
 document.getElementById('apply-btn').addEventListener('click', function(){
     const bestPrice = getExtraPrice('best');
     const memoryPrice = getExtraPrice('memory');
